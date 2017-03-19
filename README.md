@@ -20,5 +20,5 @@ Deploy first `MyAppTokenFactoryX.sol:MyAppTokenFactoryX` and use the resulting a
   
 ### Using ethereum-sandbox 
 Log-in into your live.ether.camp ide  
-Open file `ethereum.json` and set the contracts to be deployed, Delegated or Normal.  
+Open file [`ethereum.json`](https://github.com/ethereans/factory-example/blob/master/ethereum.json) and set the contracts to be deployed, Delegated or Normal.  
 Press Run All Contracts.    
