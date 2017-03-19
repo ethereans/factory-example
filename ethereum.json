@@ -1,7 +1,7 @@
 {
   "contracts": "contracts",
   
-  "deploy": ["MyAppTokenFactoryD", "AppExampleD"],
+  "deploy": ["MyAppTokenFactoryN","AppExampleNLF"],
 
   "env": {
     "block": {
