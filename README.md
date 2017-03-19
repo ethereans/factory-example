@@ -17,8 +17,9 @@ Not working. Uses manual delegation by `factory.delegatecall()`: uses a storage 
 ### library call     
 Use library for delegate call to `MyAppTokenFactoryN` - best aprooch for delegation of deploy sender.     
 [`src/AppExampleNL.sol`](https://github.com/ethereans/factory-example/blob/master/contracts/src/AppExampleNL.sol) - works but contracts not splitted.  
-[`src/AppExampleNLF.sol`](https://github.com/ethereans/factory-example/blob/master/contracts/src/library/AppExampleNLF.sol) - requires `MyAppTokenFactoryN` address in constructor;   
-  
+[`src/AppExampleNLF.sol`](https://github.com/ethereans/factory-example/blob/master/contracts/src/AppExampleNLF.sol) - requires `MyAppTokenFactoryN` address in constructor; 
+[`src/library/MyAppTokenLibraryNF.sol`](https://github.com/ethereans/factory-example/blob/master/contracts/src/library/MyAppTokenLibraryNF.sol) `using MyAppTokenLibraryNF for MyAppTokenFactoryNI;`  
+     
 ## Deploy   
 Deploy first `MyAppTokenFactoryX.sol:MyAppTokenFactoryX` and use the resulting address in the constructor of `AppExampleX.sol:AppExampleX`
   
